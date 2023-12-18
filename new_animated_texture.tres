@@ -1,0 +1,30 @@
+[gd_resource type="AnimatedTexture" load_steps=6 format=3 uid="uid://qwubmrr8s038"]
+
+[ext_resource type="Texture2D" uid="uid://dugc4nu7q3117" path="res://assets/tileset/WaterEdge SpriteSheet.png" id="1_6el87"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dyy8g"]
+atlas = ExtResource("1_6el87")
+region = Rect2(0, 0, 80, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_08k2m"]
+atlas = ExtResource("1_6el87")
+region = Rect2(80, 0, 80, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mpfkr"]
+atlas = ExtResource("1_6el87")
+region = Rect2(0, 0, 80, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3fm00"]
+atlas = ExtResource("1_6el87")
+margin = Rect2(240, 0, 80, 64)
+
+[resource]
+frames = 4
+frame_0/texture = SubResource("AtlasTexture_dyy8g")
+frame_0/duration = 0.25
+frame_1/texture = SubResource("AtlasTexture_08k2m")
+frame_1/duration = 0.25
+frame_2/texture = SubResource("AtlasTexture_mpfkr")
+frame_2/duration = 0.25
+frame_3/texture = SubResource("AtlasTexture_3fm00")
+frame_3/duration = 0.25
